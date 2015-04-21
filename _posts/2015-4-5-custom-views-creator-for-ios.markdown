@@ -38,15 +38,14 @@ Since we will be using a rails project you can go ahead and create it and add al
 
 {% highlight ruby %}
 #views objects migrations
-
+def func
+  puts "PILL"
+end
 #other migrations code
 
 {% endhighlight %}
 
 So now that all the foundations are on the right place, the part when we make an **easy to use interface to create the views**, yeah of course, easy to use but not that easy to implement. Well the easiest thing for us to draw around and update things on a webpage if of course a canvas, so the trick will be to simulate an iOS device screen and on the canvas we can draw the items , but remains the not so easy task of saving the canvas state, drawing the rif
 
-Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll’s dedicated Help repository][jekyll-help].
 
 [repo]:      https://github.com/aledustet/views-creator-backend
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-help]: https://github.com/jekyll/jekyll-help
