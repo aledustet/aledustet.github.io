@@ -3,6 +3,7 @@ layout: post
 title:  "Custom views creation for iOS using a Rails app I"
 date:   2015-4-5 16:00:25
 categories: rails iOS Javascript
+comments: true
 ---
 
 Sometimes your client sees the views you generated on your iOS app fetching the contentthe client provides for the app, using a template he agreed on, and the data he said was the right one, and he goes "I don't like where the picture is ... it's not on the right spot", "I don't like how the text looks ..." [image-of-troll] and then you start a useless explanation about that it is a template that is data-agnostic and just for one picture that i quote he does not finds on "the spot" the hole approach shouldn't be tossed away. Well, after all that there you go again to figure out how to detect that single case and to make it "on the spot" to the client, i don't know about you but that is a common scenario for me and i would like to answer this: "WELL GO AND DO THE VIEW YOURSELF", and right there, the solution was laying in front of me: "Go and do it by yourself". But a crash course of "Storyboard" and Xcode wasn't gonna quite do the trick, so i went and built a simpler interface where he could create the view using pictures and textboxes, and then i would made it look exactly how he created it. So i went on and made it, but my revenge wasn't complete until i posted the solution [funnny-face].
