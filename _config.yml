@@ -3,7 +3,7 @@ description:      "A Sweet Stream of a coder thoughts"
 logo:             logo.png
 disqus_shortname: aledustet
 share:            true
-dropcap:			true
+dropcap:			    true
 # Change url to your domain. Leave localhost server or blank when working locally.
 # or use the hint from http://jekyllrb.com/docs/github-pages/ to keep this the same
 # whether working locally or remotely. Start Jekyll with: jekyll serve --baseurl ''
@@ -21,14 +21,6 @@ owner:
   github:         aledustet
   linkedin:       aledustet
   stackoverflow:  aledustet
-  # For Google Authorship https://plus.google.com/authorship
-  # google_plus:    https://plus.google.com/u/0/102602916593522619858
-
-# Analytics and webmaster tools stuff goes here
-# google_analytics:   UA-39365944-7
-# google_verify:
-# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
-# bing_verify:
 
 # Links to include in footer navigation
 # For external links add external: true
@@ -37,12 +29,12 @@ links:
     url: /
     external: false
     icon: home
-  - title: Featured Posts
-    url: /featured
   - title: Categories
     url: /categories
   - title: About
     url: /about
+  - title: Hire me
+    url: /hire_me
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    America

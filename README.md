@@ -1,5 +1,8 @@
+
+===Tech used on the blog
+
 Notepad is a Jekyll theme which is very simple, clean and beautiful. This theme is good for any blog.
-  
+
 Main Features:
 
 * Zurb Foundation 5 – css framework
@@ -9,8 +12,6 @@ Main Features:
 * Font Awesome
 * Disqus comments integration
 
-You can set post image covers by using only Kramdown narkdown, just place something like this: `![cover-image](http://path-to-your-image.jpg)`
-
 Credits:
 
 * Zurb Foundation 5 [http://foundation.zurb.com/](http://foundation.zurb.com/)
@@ -19,9 +20,4 @@ Credits:
 * Background check [http://kennethcachia.com/background-check](http://kennethcachia.com/background-check)
 * Codrops article: [http://tympanus.net/codrops/2014/05/22/inspiration-for-article-intro-effects/](http://tympanus.net/codrops/2014/05/22/inspiration-for-article-intro-effects/)
 * There are also tools like jQuery, Modernizr, Normalize.
-
-If you'd like to give me credit somewhere on your blog or tweet a shout out to [@hmfaysal](https://twitter.com/hmfaysal), that would be pretty sweet.
-
-
-Warm Regards and Stay Creative,  
-Hossain Mohd. Faysal
+* Huge Thanks to Hossain Mohd. Faysal [@hmfaysal](https://twitter.com/hmfaysal)

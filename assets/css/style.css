@@ -1069,3 +1069,50 @@ img.mfp-img {
   top: 0;
   right: 0;
   padding-top: 0; }
+
+
+div .portfolio{
+  margin-right: auto;
+  margin-bottom: 2em;
+  margin-left: auto;
+  padding: 10px;
+  min-width: 320px;
+  max-width: 56.25rem;
+  text-align: center;
+}
+
+.portfolio p{
+  font-size: 0.8rem !important;
+}
+
+.portfolio h5{
+  margin-top: 0px !important;
+}
+
+.portfolio ul li{
+  font-size: 0.8rem !important;
+}
+
+.portfolio .even{
+  background-color: rgb(225, 225, 225) !important;
+}
+
+.portfolio .odd{
+  background-color: rgb(240, 240, 240) !important;
+}
+
+.portfolio .odd ul {
+  list-style: none;
+  margin-bottom: 0px;
+  padding-bottom: 20px;
+}
+
+.clear {
+  clear: both;
+}
+
+@media only screen and (min-width: 800px){
+  .portfolio .even figure{
+    margin-left: 80px;
+  }
+}
