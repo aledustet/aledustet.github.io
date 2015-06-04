@@ -2,6 +2,7 @@
 layout: post
 title:  "Custom views creation for iOS using a Rails app I"
 date:   2015-4-5 16:00:25
+category: Development
 categories: rails iOS Javascript
 comments: true
 ---
