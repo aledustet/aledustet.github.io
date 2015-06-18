@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Custom views creation for iOS using a Rails app (Part I)"
+permalink: custom-views-creator-for-ios-part-1
 date:   2015-4-5 16:00:25
 category: Development
 tags: [rails, iOS, Javascript]
@@ -34,7 +35,7 @@ Let's begin to "objectify" the problem. Since the objective of this post is to b
 
 Each one of the sections will have then his own type, such as an **Image Section**, or a **Text Section** or **whatever section** needs to be defined.
 
-So the sections are like an encapsulation of the actual thing to render, and depending of the type of the section an actual useful object to render will be defined and will live persisted on the database. 
+So the sections are like an encapsulation of the actual thing to render, and depending of the type of the section an actual useful object to render will be defined and will live persisted on the database.
 
 Each of these objects will have different characteristics therefore each one needs a different definition,  meaning a different model in **rails** talk, for example **Image Sections** only haves the actual image to render, in my case, i will use [**carrierwave**](https://github.com/carrierwaveuploader/carrierwave) gem for uploading the actual image for later processing, any other tool for uploading in rails is just as [good](https://www.ruby-toolbox.com/categories/rails_file_uploads). The **Text Sections** are a different case, in this case at the very least the font, font-size and a color for the fonts are mandatory. An aspect that seems irrelevant but it is not, is when a section will be placed on the view, i mean, the order in wich a view will be displayed, so i went ahead and added a **section_index** property to the sections, so i can order the sections afterwards and gain control over when the sections are rendered.
 The backend project needs to have all these definitions and a simple to use interface for creating those, with all this concepts in place it is possible to create the views, the interface will be an index of the views, and the classic **CRUD** operations to perform on the resources after that the place where the *magic* will happen, i mean where we will design our views needs to have some heavy javascript to *“draw”* the views on a canvas. The first part of the *backend* application we are going to finish it of on this post the first of three in total.
@@ -46,7 +47,7 @@ First thing first, the migrations:
 
 1. All we need on the **views** table is actually the view_index attribute.
 2. On the **sections** table we need all the common attributes to the sections, the order of creation of all the sections inside the views and of course the necessary reference to the parent view.
-3. The **ImageSections** will of course have the reference to its section and since i am using carrier-wave for file uploading i am gonna need two fields, one for carrier-wave named **image** and other for the iOS App to load the image named **image_name** 
+3. The **ImageSections** will of course have the reference to its section and since i am using carrier-wave for file uploading i am gonna need two fields, one for carrier-wave named **image** and other for the iOS App to load the image named **image_name**
 4. The **TextSections** table will hold the font, the font-size, the content, the alignment will be an integer according to the text alignment property of text-boxes and labels on iOS.
 
 So the migration looks like this:

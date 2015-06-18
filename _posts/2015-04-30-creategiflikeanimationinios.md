@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Easy fading slideshow in iOS7"
+permalink: create-gif-like-animation-in-ios
 description:
 headline:
 modified: 2015-04-30 20:35:18 -0400
