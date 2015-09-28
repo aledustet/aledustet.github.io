@@ -33,8 +33,8 @@ links:
     url: /categories
   - title: About
     url: /about
-  - title: Hire me
-    url: /hire_me
+  - title: Portfolio
+    url: /portfolio
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    America
