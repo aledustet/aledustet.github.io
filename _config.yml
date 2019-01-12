@@ -1,5 +1,5 @@
 title:            Coder's Pipeline
-description:      "A Sweet Coding Stream"
+description:
 logo:             logo.png
 disqus_shortname: aledustet
 share:            true
@@ -9,13 +9,14 @@ dropcap:			    true
 # whether working locally or remotely. Start Jekyll with: jekyll serve --baseurl ''
 url:
 
+plugins: [jekyll-paginate]
+
 # Owner/author information
 owner:
   name:           Alejandro Dustet Mederos
   avatar:         aledustet.png
   email:          aledustet@gmail.com
-  description:    Coder for life ... human helper ... open sourcer ... rubyist ... iOSist ... emberist ... learnerist ... collaborativist ... team playerist ... sports loverist ...
-  # Social networking links used in footer. Update and remove as you like.
+  description:    Problem solver through code. Opinions are my own. All things web.
   twitter:        aledustet
   facebook:       aledustet
   github:         aledustet
@@ -52,19 +53,18 @@ kramdown:
   footnote_nr: 1
   entity_output: as_char
   toc_levels: 1..6
-  use_coderay: false
+  enable_coderay: false
 
-  coderay:
-    coderay_line_numbers:
-    coderay_line_numbers_start: 1
-    coderay_tab_width: 4
-    coderay_bold_every: 10
-    coderay_css: class
+  syntax_highlighter_opts:
+    line_numbers:
+    line_numbers_start: 1
+    tab_width: 4
+    bold_every: 10
+    css: class
 
 prose:
   rooturl: '_posts'
-  # siteurl: 'http://hmfaysal.github.io/Notepad/'
-  # relativeLinks: 'http://hmfaysal.github.io/Notepad/links.jsonp'
+  siteurl: 'http://aledustet.com'
   media: 'images'
   metadata:
     _posts:
@@ -143,7 +143,6 @@ prose:
           element: "checkbox"
           label: "Comments"
           value: false
-
 
 include: [".htaccess"]
 exclude: ["lib", "config.rb", "Gemfile", "Capfile", "Gemfile.lock", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules"]

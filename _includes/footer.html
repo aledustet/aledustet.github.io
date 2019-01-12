@@ -7,10 +7,9 @@
 
   ga('create', 'UA-62187017-1', 'auto');
   ga('send', 'pageview');
-
 </script>
     <div class="copyright">
-         <section>All content copyright <a href="{{ site.url }}/about">{{ site.owner.name }}</a> &copy; {{ site.time | date: '%Y' }} &bull; All rights reserved.</section>
+         <section>All content copyright <a href="{{ site.url }}/about">{{ site.owner.name }}</a> &copy; <span id="year"></span> &bull; All rights reserved.</section>
          <section>Proudly published with <a class="icon-ghost" href="https://jekyllrb.com/">Jekyll</a></section>
     </div>
     <div class="social-icons">
@@ -55,15 +54,11 @@
             </span>
         </a>
         {% endif %}
-        {% if site.owner.facebook %}
-        <a href="http://facebook.com/{{ site.owner.facebook }}">
-            <span class="fa-stack fa-lg">
-                <i class="fa fa-circle fa-stack-2x fa-inverse"></i>
-                <i class="fa fa-facebook fa-stack-1x"></i>
-            </span>
-        </a>
-        {% endif %}
     </div>
 
     <div class="cf"></div>
 </footer>
+
+<script>
+    document.getElementById('year').innerHTML = new Date().getFullYear();
+</script>
