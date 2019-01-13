@@ -126,7 +126,7 @@ main, .notepad-share-icons, .notepad-disqus {
           text-align: left;
           padding: 0; }
           .notepad-blog-menu ul li a {
-            color: black;
+            color: white;
             display: inline-block;
             border-bottom: 0.1875rem solid transparent;
             width: auto;
@@ -141,6 +141,15 @@ main, .notepad-share-icons, .notepad-disqus {
     max-height: 5rem; }
     .notepad-site-head .notepad-site-head-menu .notepad-blog-logo img {
       max-height: 5rem; }
+  .notepad-post-title {
+    color: black;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 1.625rem;
+    margin: 0;
+    padding: 0;
+    line-height: 1.1; }
   .notepad-site-head .notepad-site-head-menu .title {
     display: inline-block;
     padding: 0;
