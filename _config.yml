@@ -1,4 +1,4 @@
-title:            Coder's Pipeline
+title:            Should we add a test?
 description:
 logo:             logo.png
 disqus_shortname: aledustet
@@ -13,10 +13,10 @@ plugins: [jekyll-paginate]
 
 # Owner/author information
 owner:
-  name:           Alejandro Dustet Mederos
+  name:           Alejandro Dustet
   avatar:         aledustet.png
   email:          aledustet@gmail.com
-  description:    Problem solver through code. Opinions are my own. All things web.
+  description:    All things web development.
   twitter:        aledustet
   facebook:       aledustet
   github:         aledustet
@@ -34,8 +34,6 @@ links:
     url: /categories
   - title: About
     url: /about
-  - title: Portfolio
-    url: /portfolio
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    America
